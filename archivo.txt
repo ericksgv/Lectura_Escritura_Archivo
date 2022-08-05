@@ -1,0 +1,11 @@
+Programa: Arquetipo
+Autor: Erick Santiago Garavito Villamil
+
+Hola profe, este es un TextArea, por lo que en este se carga la información
+del archivo y se puede editar desde aquí para modificarlo.
+
+Tiene 4 botones:
+* Cargar Archivo: es para visualizar el contenido del archivo
+*Guardar Archivo: es para guardar lo que esté en este TextArea
+* Limpiar Pantalla: es para borrar lo que haya en el TextArea
+* Salir: es para terminar la ejecución del programa

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ingesoft.arquetipo_ingesoft.ArquetipoController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="34.0" prefWidth="571.0" text="Escritura y lectura de un archivo con extensión txt">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="23.0" />
+         </font>
+      </Label>
+      <VBox layoutY="92.0" prefHeight="200.0" prefWidth="600.0">
+         <children>
+            <TextArea fx:id="pantallaArchivo" prefHeight="200.0" prefWidth="585.0" />
+         </children>
+      </VBox>
+      <HBox alignment="TOP_CENTER" layoutX="4.0" layoutY="292.0" prefHeight="100.0" prefWidth="592.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="124.0">
+               <children>
+                  <Button fx:id="btnCargarArchivo" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#cargarArchivo" prefWidth="115.0" text="Cargar Archivo" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="100.0" prefWidth="124.0">
+               <children>
+                  <Button fx:id="btnGuardarArchivo" mnemonicParsing="false" onAction="#guardarArchivo" prefHeight="30.0" prefWidth="115.0" text="Guardar Archivo" VBox.vgrow="ALWAYS" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="124.0">
+               <children>
+                  <Button fx:id="btnLimpiarPantalla" mnemonicParsing="false" onAction="#limpiarPantalla" prefHeight="30.0" prefWidth="115.0" text="Limpiar Pantalla" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="124.0">
+               <children>
+                  <Button fx:id="btnSalir" mnemonicParsing="false" onAction="#terminarPrograma" prefHeight="30.0" prefWidth="115.0" text="Salir" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
